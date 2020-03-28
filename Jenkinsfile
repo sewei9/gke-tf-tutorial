@@ -12,7 +12,7 @@ pipeline {
       steps {
         checkout scm
         sh 'mkdir -p creds' 
-        sh 'echo $SVC_ACCOUNT_KEY | base64 -d > ./creds/sound-electron-248307-87497f4d2238.json'
+        sh 'echo $SVC_ACCOUNT_KEY | base64 -d > ./creds/greyorange-test-ed832a6e2038.json'
       }
     }
 

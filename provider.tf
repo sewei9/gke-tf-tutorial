@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "./creds/sound-electron-248307-87497f4d2238.json"
-  project     = "aol-test"
+  credentials = "./creds/greyorange-test-ed832a6e2038.json"
+  project     = "greyorange-test"
   region      = "europe-west1"
 }

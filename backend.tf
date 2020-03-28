@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
     bucket = "gke-tfstate"
-    credentials = "./creds/sound-electron-248307-87497f4d2238.json"
+    credentials = "./creds/greyorange-test-ed832a6e2038.json"
   }
 }
